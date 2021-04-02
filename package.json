@@ -1,0 +1,17 @@
+{
+  "name": "contracts-lambda",
+  "version": "1.0.0",
+  "description": "",
+  "main": "handler.ts",
+  "scripts": {
+    "start offline": "sls offline",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.73",
+    "serverless-offline": "^6.9.0",
+    "serverless-plugin-typescript": "^1.1.9"
+  }
+}
