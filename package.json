@@ -4,6 +4,7 @@
   "description": "",
   "main": "handler.ts",
   "scripts": {
+    "deploy": "sls deploy -v",
     "start offline": "sls offline",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -13,5 +14,8 @@
     "@types/aws-lambda": "^8.10.73",
     "serverless-offline": "^6.9.0",
     "serverless-plugin-typescript": "^1.1.9"
+  },
+  "dependencies": {
+    "uuidv4": "^6.2.7"
   }
 }
